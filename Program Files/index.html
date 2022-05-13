@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content=
+        "width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="lib/style.css" />
+</head>
+  
+<body>
+    <br />
+    <p class="header">Sorting Algorithms</p>
+    <h class="text1">Массив чисел(разделитель - пробел) :</h><br>
+    <input type="text" id="inparray"/><br>
+    <button id="array-enter" class="button button1" onclick="enterarray()" type="button">Enter</button><br><br>
+    <h class="text1"> Введите время задержки текста в секундах:</h><br>
+    <input type="number" name="quantity" id="seconds" min="1" max="100">
+    <button id="timer-enter" class="button button1"   onclick="setTimer()" type="button">Enter</button><br><br>
+  
+    <button id="array-random" onclick="generatearray()" class="button button2" type="button">Сгенерировать</button><br><br>
+  
+    <button id="bubblesort-start" class="button buttonbubble" onclick="BubbleSort()" type="button">Bubble Sort</button>
+  
+    <button id="insertsort-start" class="button buttoninsert" onclick="InsertionSort()" type="button">Insertion Sort</button>
+  
+    <button id="selectsort-start" onclick="SelectionSort()" class="button buttonselect" type="button">Selection Sort</button><br><br>
+    <button id="rules-print" onclick="Rules()" class="button button1" type="button">Правила</button><br>
+    <br>
+    <button id="rainbow-set" onclick="generaterainbow()" class="button button3" type="button">Радуга</button><br><br>
+    <button id="restartBtn" onclick="restart()" class="button button3" type="button">Перезапуск</button><br><br>
+    <h id="steps" class="text1">Понадобилось шагов:</h><br>
+    <h id="logs" class="text1"></h>
+    <div id="legend">
+      <p class="header">Легенда</p><br>
+    </div><br>
+    <div id="array"></div>
+    <script src="lib/script.js"></script>
+</body>
+  
+</html>

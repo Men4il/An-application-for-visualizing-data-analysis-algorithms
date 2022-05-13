@@ -1,0 +1,168 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.header {
+  font-size: 20px;
+  text-align: center;
+}
+
+.button {
+background-color: #4CAF50;
+border: none;
+border-radius: 8px;
+color: white;
+padding: 15px 32px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 12px;
+transition-duration: 0.4s;
+cursor: pointer;
+}
+
+.button1 {
+background-color: white; 
+color: black; 
+padding: 2px 32px;
+border: 2px solid #4CAF50;
+}
+
+.button2 {
+background-color: white; 
+color: black; 
+padding: 2px 21px;
+border: 2px solid #4CAF50;
+}
+
+.button3 {
+background-color: white; 
+color: black; 
+padding: 2px 32px;
+border: 2px solid #FF7F50;
+}
+
+.buttonbubble {
+background-color: white; 
+color: black; 
+padding: 2px 32px;
+border: 2px solid #FF4500;
+visibility: hidden;
+}
+
+.buttoninsert {
+background-color: white; 
+color: black; 
+padding: 2px 32px;
+border: 2px solid #29C5F6;
+visibility: hidden;
+}
+
+.buttonselect {
+background-color: white; 
+color: black; 
+padding: 2px 32px;
+border: 2px solid #D8BFD8;
+visibility: hidden;
+}
+
+.button1:hover {
+background-color: #4CAF50;
+color: white;
+}
+
+.button2:hover {
+background-color: #4CAF50;
+color: white;
+}
+
+.button3:hover {
+background-color: #FF7F50;
+color: white;
+}
+
+.buttonbubble:hover {
+background-color: #FF4500;
+color: white;
+}
+
+.buttoninsert:hover {
+background-color: #29C5F6;
+color: white;
+}
+
+.buttonselect:hover {
+background-color: #D8BFD8;
+color: white;
+}
+
+.buttonblank {
+background-color: white;
+color: black;
+border: 2px solid #4CAF50;
+}
+
+#array {
+  background-color: white;
+  height: 500px;
+  width: 800px;
+  margin: auto;
+  position: relative;
+  margin-top: 64px;
+}
+
+#legend {
+  background-color: white;
+  height: 300px;
+  width: 300px;
+  margin: auto;
+  position: absolute;
+  top: 40px; left: 1500px;
+  margin-top: 64px;
+  font-family: arial;
+}
+
+.box {
+display: inline-block;
+height: 20px;
+width: 20px;
+border: 2px solid;
+}
+
+.text1 {
+font-family: arial;
+}
+
+input[type='number']{
+  width: 120px;
+}
+
+input[type='text']{
+  width: 250px;
+} 
+
+.block {
+  width: 28px;
+  background-color: #9c80f7;
+  position: absolute;
+  bottom: 0px;
+  transition: 0.2s all ease;
+}
+
+.block_id {
+  position: absolute;
+  color: black;
+  margin-top: -20px;
+  width: 100%;
+  text-align: center;
+}
+
+.block_id_rainbow {
+  position: absolute;
+  color: white;
+  margin-top: -20px;
+  width: 100%;
+  text-align: center;
+}
